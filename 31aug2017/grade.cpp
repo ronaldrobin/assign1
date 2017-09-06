@@ -103,10 +103,14 @@ main()
 	}
 	printf("\n 15 min window status");
 	printf("\n avg value is %f",avg1);
+	while(i<15)
+	{
 	if (array[0]<array[0+i])
     {
     	max1=array[i];
     	i++;
+	}
+		i++;
 	}
 	printf ("\n the max temp is %f",max1);
 	
